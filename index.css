@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: Inter;
+}
+/* _____HEADER__SECTION_____*/
+.nav__items{
+    button{
+        width: 136px;
+        height: 36px;
+        text-align: center;
+        border-radius: 12px;
+        background-color: black;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+}
+nav, .nav__items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav__items{
+    width: 554px;
+}
+nav{
+    margin-top: 16px;
+    justify-content: space-around;
+}
+.header_column_container{
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    p{
+        width: 768px;
+    }
+}
+.header_row_container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 90px 80px;
+}
+.header__pic{
+        box-shadow: 20px 20px 10px lightgray;
+        width: 280px;
+        height: 320px;
+}
+.info{
+    display: flex;
+    align-items: center;
+}
+/*_______MAIN__SECTION______*/
+.section__name{
+    width: 105px;
+    height: 28px;
+    border-radius: 12px;
+    background-color: #E5E7EB;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.info__section{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1216px;
+    img{
+        width: 400px;
+        height: 480px;
+        box-shadow: -20px 20px 10px lightgray;
+    }
+    article{
+        width: 584px;
+    }
+    p{
+        font-size: 16px;
+    }
+}
+.section--1{
+    height: 900px;
+    background-color: #F9FAFB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.section--2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 96px 0 96px 0;
+}
+.section--3{
+    background-color: #F9FAFB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+    margin-top: 48px;
+    padding: 32px;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    width: 896px;
+    background-color: white;
+    img{
+        width: 170px;
+        height: 100px;
+    }
+    ul{
+        width: 384px;
+    }
+}
+.experience__info{
+    text-align: left;
+}
