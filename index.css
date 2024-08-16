@@ -84,26 +84,25 @@ nav{
     align-items: center;
     justify-content: space-evenly;
 }
-.section--2{
+.section--2, .section--4, .section--3, .section--5{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 96px 0 96px 0;
 }
-.section--3{
+.section--3, .section--5{
     background-color: #F9FAFB;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 .box{
     margin-top: 48px;
+    margin-bottom: 40px;
     padding: 32px;
     display: flex;
     justify-content: space-around;
     height: 200px;
     width: 896px;
     background-color: white;
+    box-shadow: 10px 10px 10px lightgray;
     img{
         width: 170px;
         height: 100px;
@@ -114,4 +113,35 @@ nav{
 }
 .experience__info{
     text-align: left;
+}
+.work_row_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    width: 1400px;
+    align-items: center;
+    box-shadow:5px 5px 10px lightgray ;
+}
+.about__work{
+    width: 480px;
+}
+.about__work--1{
+    height: 150px;
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    span{
+        display: block;
+        margin-left: 15px;
+    }
+    div{
+        display: flex;
+    }
+}
+.section--4{
+    img{
+        width: 480px;
+        height: 384px;
+    }
 }
