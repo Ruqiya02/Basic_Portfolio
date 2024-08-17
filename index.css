@@ -24,7 +24,6 @@ nav, .nav__items{
     width: 554px;
 }
 nav{
-    margin-top: 16px;
     justify-content: space-around;
 }
 .header_column_container{
@@ -59,6 +58,7 @@ nav{
     text-align: center;
     font-size: 14px;
     padding-top: 10px;
+    margin-top: 50px;
 }
 .info__section{
     display: flex;
@@ -84,13 +84,13 @@ nav{
     align-items: center;
     justify-content: space-evenly;
 }
-.section--2, .section--4, .section--3, .section--5{
+.section--1, .section--2, .section--4, .section--3, .section--5{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 96px 0 96px 0;
+    margin: 50px 0 0 0;
 }
-.section--3, .section--5{
+.section--3, .section--5, .section--6{
     background-color: #F9FAFB;
 }
 .box{
@@ -139,9 +139,56 @@ nav{
         display: flex;
     }
 }
+.skill__name{
+    width: 105px;
+    height: 28px;
+    border-radius: 12px;
+    background-color: #E5E7EB;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 10px;
+}
 .section--4{
     img{
         width: 480px;
         height: 384px;
     }
+}
+.card{
+    width: 373px;
+    height: 428px;
+    background-color: white;
+    border-radius: 12px;
+    text-align: center;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 60px 0 60px 0;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.cards{
+    width: 1440px;
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    div{
+        display: flex;
+    }
+    img{
+        cursor: pointer;
+    }
+}
+.footer__note{
+    width: 100%;
+    background-color: #E5E7EB;
+    text-align: center;
+    height: 40px;
+    padding-top: 20px;
+    margin: 0;
 }
